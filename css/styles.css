@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -51,10 +52,8 @@ table {
 my code */
 body{
     background-color: white;
-    width: 640px;
-    margin: 0 auto;
+    width: 480px;
     font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
     justify-content: center;
     margin: 0 auto;
 }
@@ -65,7 +64,7 @@ nav a{
     text-decoration: none;
     color: #c78c06;
 }
-#a   {
+#a{
     color: #222;
 }
 
@@ -90,15 +89,253 @@ nav a{
     color: white;
 }
 .header-opening img{
-    width: 640px;
+    width: 480px;
 }
-.banner-txt h1{
+.banner-txt{
     font-size: large;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 25%;
+    height: 75%;
     background-color: rgba(2, 2, 2, 0.5);
+}
+.banner-txt h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    transform: translate(-3%,0);
+}
+.banner-txt p {
+    font-size: x-small;
+    transform: translate(-3%, 0);
+    justify-content: flex-start;
+}
+
+.banner-txt button{
+    color: black;
+    background-color: #c78c06;
+    border: 1px solid #c78c06;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    transform: translate(-70%, 0);
+}
+
+.container {
+    background-color:  #ffe6ac;
+    
+}
+.abt-us {
+    background-color:  #ffe6ac;
+}
+.abt-us img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 450px;
+}
+.abt-us h2{
+    margin-left: 1rem;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.abt-us p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: x-small;
+}
+
+.services {
+    display: grid;
+    grid-gap: 10px;
+}
+.our-serv{
+    background-color:  #ffe6ac;
+}
+.our-serv img{
+    width: 480px;
+
+}
+.services h1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 30px;
+}
+.services h2{
+    padding-left: 9px;
+    font-size: 25px;
+}
+.services p{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+.b-t {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 16px 14px;
+    color: white;
+    font-size: 16px;
+    background-color: #222;
+    border: none;
+    transform: translate(-5%, 0);
+    
+}
+.marketing{
+    background-color:  #ffe6ac;
+}
+.marketing img{
+    width: 480px;
+
+}
+.video-marketing{
+    background-color:  #ffe6ac;
+}
+.video-marketing img{
+    width: 480px;
+
+}
+.web{
+    background-color:  #ffe6ac;
+}
+.web img{
+    width: 480px;
+
+}
+.print{
+    background-color:  #ffe6ac;
+}
+.print img{
+    width: 480px;
+
+}
+.b-tt {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 16px 14px;
+    color: white;
+    font-size: 16px;
+    background-color: #222;
+    border: none;
+    transform: translate(-5%, 0);
+    border: 2px solid #c78c06 ;
+}
+.our-vision img{
+    width: 550px;
+    height: 200px;
+}
+.our-vision{
+    margin-top: 1rem;
+    transform: translate(-5%,0);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    
+}
+.our-vision h2{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.our-vision p{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    text-align: left;
+}
+.our-vision button{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+.team img{
+    width: 480px;
+}
+.main-team h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.founder img{
+    background-color: white;
+}
+.team h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.team h4{
+    margin-top: 5px;
+    font-size: large;
+    font-weight: 800;
+}
+.team hr{
+    border: 1px solid #c78c06;
+}
+.team p{
+    font-size: 10px;
+}
+.main-contact{
+    margin-left: 5px;
+}
+.main-contact h2{
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.main-contact h3{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.group{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+input[type="text"] {
+    width: 400px;
+}
+input[type="email"] {
+    width: 400px;
+}
+.group textarea {
+    width: 400px;
+    height: 150px;
+}
+.send {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: #c78c06;
+    font-size: 16px;
+    background-color: #222;
+    border: none;
+    transform: translate(-5%, 0);
+    margin-bottom: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 101%;
+    margin-bottom: 10px;
+}
+.act thead {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+.cn{
+    margin-top: 10px;
+    background-color: #222;
+    color: #c78c06;
 }
