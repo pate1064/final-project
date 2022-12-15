@@ -48,8 +48,10 @@ table {
 	border-spacing: 0;
 }
 
-/* 
-my code */
+/* =================
+        my code
+====================*/
+/* start of mobile design */
 body{
     background-color: white;
     width: 480px;
@@ -58,7 +60,7 @@ body{
     margin: 0 auto;
 }
 
-
+/* css for navigation */
 nav a{
     list-style-type: none;
     text-decoration: none;
@@ -67,7 +69,7 @@ nav a{
 #a{
     color: #222;
 }
-
+/* Start of heading tag */
 .head{
     background-color:  #222;
     text-align: center;
@@ -122,7 +124,8 @@ nav a{
     letter-spacing: 1px;
     transform: translate(-70%, 0);
 }
-
+/* end of heading tag */
+/* start of about us */
 .container {
     background-color:  #ffe6ac;
     
@@ -147,7 +150,8 @@ nav a{
     margin-top: 1rem;
     font-size: x-small;
 }
-
+/* end of about us */
+/* start of services */
 .services {
     display: grid;
     grid-gap: 10px;
@@ -252,6 +256,8 @@ nav a{
     bottom: 40px;
     left: 10px;
 }
+/* end of services */
+/* start of team */
 .team img{
     width: 480px;
 }
@@ -281,6 +287,7 @@ nav a{
 .team p{
     font-size: 10px;
 }
+/* end of team */
 .main-contact{
     margin-left: 5px;
 }
@@ -338,7 +345,10 @@ table {
     background-color: #222;
     color: #c78c06;
 }
+/* end of mobile design */
+/* start of desktop design */
 @media screen and (min-width: 760px)  {
+    /* start of navigation  */
     nav {
         background-color: #222;
     }
@@ -359,6 +369,7 @@ table {
         transform: translate(63%, -250%);
         display: flex;
     }
+    /* end of Navigation */
     body{
         width: 1200px;
     }
@@ -377,7 +388,7 @@ table {
         background-color: #222;
         color: #c78c06;
     }
-
+    /* start of header */
     .header-opening h1{
         font-size: 80px;
         font-weight: bolder;
@@ -397,6 +408,8 @@ table {
         text-align: left;
         margin-left: -31rem;
     }
+    /* end of header design */
+    /* about us section */
     .abt-us img{
         
         margin-left: 5rem;
@@ -415,6 +428,7 @@ table {
         margin-left: 5rem;
         font-weight: bolder;
     }
+    /* start of services */
     .services{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -431,6 +445,8 @@ table {
     .our-vision img{
         width: 1200px;
     }
+    /* end of services */
+    /* start of team section */
     .main-team h1{
         font-weight: bolder;
     }
@@ -461,6 +477,7 @@ table {
     .co-founder img {
         width: 600px;
     }
+    /* end of team section */
     iframe{
         transform: translate(100%,-115%);
     }
@@ -474,3 +491,4 @@ table {
         transform: translate(0%,-1450%);
     }
   }
+  /* end of desktop design */
