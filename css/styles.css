@@ -118,7 +118,6 @@ nav a{
     border: 1px solid #c78c06;
     line-height: 30px;
     font-size: 20px;
-    font-weight: 10px;
     margin-left: 10px;
     letter-spacing: 1px;
     transform: translate(-70%, 0);
@@ -339,3 +338,139 @@ table {
     background-color: #222;
     color: #c78c06;
 }
+@media screen and (min-width: 760px)  {
+    nav {
+        background-color: #222;
+    }
+    nav ul{
+        display: flex;
+        color: #c78c06;
+        text-align: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav #a{
+        margin-left: 15rem;
+    }
+    .smth{
+        color: #c78c06;
+        margin-right: 2px;
+        transform: translate(63%, -250%);
+        display: flex;
+    }
+    body{
+        width: 1200px;
+    }
+    .image img{
+        width: 75px;
+        display: block;
+        position: absolute;
+        margin-left: 1rem;
+        transform: translate(80%, -40%);
+    }
+    .h{
+        margin-left: 50px;
+    }
+    .smth button{
+        border: 1px solid #c78c06;
+        background-color: #222;
+        color: #c78c06;
+    }
+
+    .header-opening h1{
+        font-size: 80px;
+        font-weight: bolder;
+        text-align: left;
+        margin-left: 10rem;
+    }
+    .header-opening p{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 10rem;
+    }
+    .header-opening img{
+        width: 1200px;
+        height: 600px;
+    }
+    .header-opening button{
+        text-align: left;
+        margin-left: -31rem;
+    }
+    .abt-us img{
+        
+        margin-left: 5rem;
+    }
+    .abt-us {
+        display: flex;
+    }
+    .abt-us h2{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .abt-us p{
+        font-size: 16px;
+    }
+    .services h1{
+        margin-left: 5rem;
+        font-weight: bolder;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+    .services .our-serv{    
+        margin-top: 10rem;
+        grid-column: 2/2;
+    }
+    .services .marketing{
+        margin-top: 10rem;
+        grid-column: 3/4;
+    }
+    .our-vision img{
+        width: 1200px;
+    }
+    .main-team h1{
+        font-weight: bolder;
+    }
+    .team h1{
+        margin-left: 5rem;
+        font-weight: bolder;
+    }
+    .team p{
+        font-size: 16px;
+    }
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    .team .founder {
+        flex-basis: calc(75% - 135px);
+    }
+    .founder {
+        display: flex;
+        
+    }
+    .founder img{
+        width: 600px;
+    }
+    .co-founder {
+        display: flex;
+    }
+    .co-founder img {
+        width: 600px;
+    }
+    iframe{
+        transform: translate(100%,-115%);
+    }
+    table{
+        margin-top: 6rem;
+        height: 101%;
+    }
+    footer{
+        text-align: center;
+        margin-bottom: 10rem;
+        transform: translate(0%,-1450%);
+    }
+  }
